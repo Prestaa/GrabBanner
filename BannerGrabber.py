@@ -76,6 +76,9 @@ def TempsPris(start,endl):
                 time += str(i)+"s"     
         a+=1
     
+    if len(time) == 0:
+        time = "0s"
+    
     return time    
 
 def GetBanner(ip, porttuple, time):
