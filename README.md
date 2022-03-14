@@ -9,7 +9,7 @@ pip3 install -r requirements.txt
 
 ```
 
-$ python3  --help
+$ python3 BannerGrabber.py --help
      ____                               ____           _     _
     | __ )  __ _ _ __  _ __   ___ _ __ / ___|_ __ __ _| |__ | |__   ___ _ __
     |  _ \ / _` | '_ \| '_ \ / _ \ '__| |  _| '__/ _` | '_ \| '_ \ / _ \ '__|
