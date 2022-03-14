@@ -59,4 +59,4 @@ $ BannerGrabber.py -i 192.168.0.24 -p 20-22 -t 4
 # Informations :
 
 - Write by : Presta_DZ
-- Language : Python
+- Language : Python3
