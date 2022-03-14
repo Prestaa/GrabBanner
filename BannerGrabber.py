@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from termcolor import colored
 from datetime import datetime
 from sys import exit
