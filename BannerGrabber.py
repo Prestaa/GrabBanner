@@ -112,7 +112,6 @@ def GetBanner(ip, porttuple, time):
 
 
 def main(ip, porttuple, time):
-    Banner()
     
     try:
         time = int(time)
@@ -135,7 +134,7 @@ def main(ip, porttuple, time):
 
     
 if __name__ == "__main__":
-    
+    Banner()
     parser = argparse.ArgumentParser("")
 
     parser.add_argument(
