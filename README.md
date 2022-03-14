@@ -55,6 +55,7 @@ $ BannerGrabber.py -i 192.168.0.24 -p 20-22 -t 4
 [i] Ending at 16:42:59, scanned in 6s
 
 ``` 
+
 Par défaut le script cherchera des bannières en se connectant sur chaque port dans le rang 1-65535 ce qui peut etre assez long. Je vous conseille donc de mettre un rang personalisé avec l'option -p. Par ailleurs si vous ne voulez scanner que un port , par exemple le port 22 vous pouvez utiliser -p 22-22.
 Vous pouvez également personnaliser le timeout (le temps en seconde au bout duquel une tentative de connexion sur un port est avorté) en fonction de vos besoins et de la rapidité de votre réseau. 
 
