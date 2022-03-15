@@ -63,5 +63,5 @@ Vous pouvez également personnaliser le timeout (le temps en seconde au bout duq
 
 # Informations :
 
-- Write by : Presta_DZ
+- Written by : Presta_DZ
 - Language : Python3
