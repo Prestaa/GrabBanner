@@ -108,6 +108,8 @@ def GetBanner(ip, porttuple, time):
             var = str(s.recv(1024).decode('UTF-8'))
         except socket.timeout:
             pass
+        except UnicodeDecodeError:
+            pass
         except OSError:
             print(colored(f"[!] Cannot connect to {ip} try to increase the timeout value or check te ip adress", 'red'))
             exit()
