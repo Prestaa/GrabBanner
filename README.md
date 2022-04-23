@@ -16,54 +16,19 @@ pip3 install -r requirements.txt
 
 ## Usage :
 
-```
+![banngrab](https://user-images.githubusercontent.com/95232318/164916154-7f00139d-486d-4dc4-ae1f-55bfa15b9fbc.png)
 
-$ python3 BannerGrabber.py --help
-     ____                               ____           _     _
-    | __ )  __ _ _ __  _ __   ___ _ __ / ___|_ __ __ _| |__ | |__   ___ _ __
-    |  _ \ / _` | '_ \| '_ \ / _ \ '__| |  _| '__/ _` | '_ \| '_ \ / _ \ '__|
-    | |_) | (_| | | | | | | |  __/ |  | |_| | | | (_| | |_) | |_) |  __/ |
-    |____/ \__,_|_| |_|_| |_|\___|_|   \____|_|  \__,_|_.__/|_.__/ \___|_|
-
-   --< Search for banners
-   --< By @Presta
-
-
-usage: [-h] -i IP [-p PORTS] [-t TIMEOUT]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -i IP, --ip IP        The ip address.
-  -p PORTS, --ports PORTS
-                        Range port to scan (default is 1-65535) | ( python3 BannerGrabber.py -p 1-100 ).
-  -t TIMEOUT, --timeout TIMEOUT
-                        time before closing the communication in second, minimum is 5
-
-```
 
 ## Exemple :
 
-```
-$ BannerGrabber.py -i 192.168.0.24 -p 20-22 -t 4
-     ____                               ____           _     _
-    | __ )  __ _ _ __  _ __   ___ _ __ / ___|_ __ __ _| |__ | |__   ___ _ __
-    |  _ \ / _` | '_ \| '_ \ / _ \ '__| |  _| '__/ _` | '_ \| '_ \ / _ \ '__|
-    | |_) | (_| | | | | | | |  __/ |  | |_| | | | (_| | |_) | |_) |  __/ |
-    |____/ \__,_|_| |_|_| |_|\___|_|   \____|_|  \__,_|_.__/|_.__/ \___|_|
-
-   --< Search for banners
-   --< By @Presta
+![aaaaaaaa](https://user-images.githubusercontent.com/95232318/164916281-0fdbfc39-42b5-4864-9d40-d375f9f684f2.png)
 
 
-[!] The timeout is set to 4, programm may not work correctly
-[i] Starting at : 16:42:53
+## Credits :
 
-[+] At port 21 : 220 (vsFTPd 3.0.3)
-[+] At port 22 : SSH-2.0-OpenSSH_8.4p1 Debian-5
+Credits to:
 
-[i] Ending at 16:42:59, scanned in 6s
-
-``` 
+- https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
 
 ## Informations :
 
