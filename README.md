@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 
 ## Exemple :
 
-![aaaaaaaa](https://user-images.githubusercontent.com/95232318/164916328-e1c77403-f67f-417b-a8d4-0cf1dae40d65.png)
+![aaaaaaaa](https://user-images.githubusercontent.com/95232318/164916439-b09f3978-7986-49e2-bbd4-0a90a1b6d710.png)
 
 
 ## Credits :
