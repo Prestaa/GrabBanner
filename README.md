@@ -4,7 +4,7 @@ BannerGrabber is a python3 script that allow you to grab banners on every port y
 If you wan't to check only one port, (22 for example) you can use -p 22-22.
 
 ## Installation :
-```
+```bash
 git clone https://github.com/PrestaDZ/GrabBanner.git
 cd GrabBanner
 pip3 install -r requirements.txt
